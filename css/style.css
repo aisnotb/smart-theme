@@ -1,0 +1,255 @@
+.header{
+    max-height: 50px;
+    width: 100%;
+    background-color:#3c8dbc;
+}
+/* a tag default display is inline  */
+.header > .logo{
+    display: inline-block;
+    width: 200px;
+    background-color: #367fa9;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 0 ;
+    text-align: center;
+}
+.toggle-btn{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    top: 7px;
+    left: 10px;
+    padding-top: 9px;
+    padding-left: 3px;
+    background-color: transparent;
+}
+.toggle-btn .bar{
+    display: inline-block;
+    position: absolute;
+    width: 22px;
+    height: 2px;
+    background-color: #acd0e5;
+}
+.toggle-btn .bar:first-child{
+    margin-top: 5px;
+}
+.toggle-btn .bar:nth-of-type(2){
+    margin-top: 10px;
+}
+.toggle-btn:hover{
+    background-color: #72afd2;
+}
+.number{
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    color: white;
+    border-radius: 50%;
+}
+.number-success{
+    background-color: #33cc00;
+}
+.number-danger{
+    background-color: #cc3333;
+}
+.number-warning{
+    background-color: #ffcc99;
+}
+.collections{
+    float: right;
+    min-width: 300px;
+    max-height: 50px;
+}
+.collections ul li {
+    float: left;
+    display: block;
+    min-width: 50px;
+    min-height: 50px;
+    margin-right: 5px;
+    list-style: none;
+    position: relative;
+}
+.collections ul li:hover{
+    background-color: #307095 ;
+    cursor: pointer;
+}
+.collections ul li i.fa{
+    position: relative;
+    color: #ddd;
+    top: 2px;
+}
+.collections ul li span.number{
+    position: absolute;
+    left: 17px;
+    top: -4px;
+    text-align: center;
+}
+.collections ul li .item-group{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+.user-name{
+    margin-left: 10px;
+    color: white;
+}
+.wrap{
+    height: 100%;
+}
+.sidebar{
+    width: 200px;
+    min-height: 100%;
+    float: left;
+}
+.content{
+    height: 100%;
+    background-color: #f9f9f9;
+}
+.user-profile{
+    margin: 10px auto;
+}
+.user-img{
+    margin-left: 10px;
+}
+.img-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid grey;
+}
+.online{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin:  0 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+.greetings{
+    margin-left: 20px;
+}
+.greetings > p {
+    margin-bottom: 5px;
+}
+input[type="text"]{
+    width: 140px;
+    border: none;
+    padding-left: 5px;
+    background-color: #ddd;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background-color: #fafafa;
+}
+.form-div{
+    padding: 5px 7px;
+    margin: 3px;
+}
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+}
+.sidebar ul li a {
+    color: black;
+}
+.sidebar ul li {
+    width: 200px;
+    height: 50px;
+    padding-left: 8px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #555;
+    background-color: #f9f9f9;
+    list-style: none;
+}
+.sidebar ul li:hover{
+    background-color: #ccc;
+}
+.menu-item{
+    margin-left: 8px;
+}
+.badge{
+    width: 50px;
+    height: 20px;
+    border-radius: 30%;
+    background-color: green;
+    color: white;
+    float: right;
+}
+.content{
+    margin-left: 200px;
+}
+.dash-panel{
+    min-height: 50px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+.dash-panel-name{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.fish-bone{
+    padding-top: 10px;
+    padding-right: 15px;
+}
+.content-box{
+    padding: 20px 15px;
+}
+.display-box{
+    padding: 15px 20px;
+}
+.box{
+    margin-right: 20px;
+    height: 100px;
+    background-color: orange;
+}
+.big-font{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.server-load{
+    border-top: 3px solid red;
+}
+.visitors{
+    border-top: 3px solid orange;
+}
+.margin-top{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+td.country{
+    color: blue;
+}
+.calendar{
+    border-top: 3px solid green;
+}
+.chat{
+    border-top: 3px solid green;
+}
+.comments{
+    /* border: 1px solid black; */
+    padding-top: 10px;
+    clear: both;
+}
+.comments p {
+    padding-top: 20px;
+    margin-left: 10px;
+    float: left;
+}
+.comments .time{
+    float: right;
+}
+.attachments{
+    float: left;
+    margin-left: 11%;
+    width: 81%;
+    background-color: grey;
+    border: 1px solid black;
+}
+.input-text{
+    width: 80%;
+    border: 1px solid grey;
+}

@@ -1,0 +1,8 @@
+1 用一个多余的标签比如
+    div style="clear: both" 来清除浮动
+    好处是简单易学，坏处是结构和表现的分离
+2 用br 标签
+    br clear="both"
+    代码简单,精短，坏处同样是结构和表现的分离
+3 overflow hidden
+            

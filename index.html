@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>admin LTE theme</title>
+        <meta name="" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <!-- bootstrap 3.0.2 -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.min.css">
+        <!-- ion icon -->
+        <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
+        <!-- theme style -->
+        <link href="theme/theme.css" rel="stylesheet">
+        <!-- default style -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <a href="index.html" class="logo"><span><b>Admin</b>LTE</span></a>
+            <a href="#" class="toggle-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <!-- TODO: fix the toggle btn hover style -->
+            <!-- TODO: fix user name position -->
+            <!-- TODO: fix dash-panel-name position yixialai-->
+            <div class="collections">
+                <ul>
+                    <li><a href="#"><span class="item-group"><i class="fa fa-envelope"></i><span class="number number-success">4</span></span></a></li>
+                    <li><a href="#"><span class="item-group"><i class="fa fa-warning"></i><span class="number number-danger">10</span></span></a></li>
+                    <li><a href="#"><span class="item-group"><i class="fa fa-tasks"></i><span class="number number-warning">8</span></span></a></li>
+                    <li><a href="#"><i class="fa fa-user"></i><span class="user-name">Jane jone</span><span class="caret"></span></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="wrap">
+            <div class="sidebar">
+                <div class="user-profile">
+                    <div class="user-img pull-left">
+                        <img src="img/user-icon.png" class="img-circle" alt="user avatar">
+                    </div>
+                    <div class="greetings pull-left">
+                        <p>Hello, Jinx!</p>
+                        <i class="fa fa-circle text-success"></i> online
+                    </div>
+                </div>
+                <form action="">
+                    <div class="form-div">
+                        <input type="text" name="q" value="" placeholder="搜索...">
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+                </form>
+                <ul>
+                    <li><a href=""><i class="fa fa-dashboard"></i><span class="menu-item">Dashboard</span></a></li>
+                    <li><a href=""><i class="fa fa-th"></i><sapn class="menu-item">Widgets</sapn><span class="badge">New</span></a></li>
+                    <li><a href=""><i class="fa fa-bar-chart-o"></i><span class="menu-item">Dashboard</span></a></li>
+                    <li><a href=""><i class="fa fa-laptop"></i><span class="menu-item">UI elements</span></a></li>
+                    <li><a href=""><i class="fa fa-laptop"></i><span class="menu-item">Forms</span></a></li>
+                    <li><a href=""><i class="fa fa-laptop"></i><span class="menu-item">Tables</span></a></li>
+                    <li><a href=""><i class="fa fa-laptop"></i><span class="menu-item">Calendar</span></a></li>
+                    <li><a href=""><i class="fa fa-laptop"></i><span class="menu-item">Mail</span></a></li>
+                    <li><a href=""><i class="fa fa-circle"></i><span class="menu-item">Example</span></a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="dash-panel">
+                    <span class="dash-panel-name">Control panel</span>
+                    <small>Contorl panel</small>
+                    <div class="fish-bone pull-right">
+                        <i class="fa fa-dashboard"></i><span>Home</span> > Dashboard
+                    </div>
+                </div>
+                <div class="content-box">
+                    <div class="row display-box">
+                        <div class="box col-lg-3 col-xs-6">
+                            <div class="pull-left">
+                                <h2>150</h2>
+                                <span>New Orders</span>
+                            </div>
+                            <div class="pull-right">
+                                <i class="ion ion-bag big-font"></i>
+                            </div>
+                        </div>
+                        <div class="box col-lg-3 col-xs-6">
+                            <div class="pull-left">
+                                <h2>150</h2>
+                                <span>New Orders</span>
+                            </div>
+                            <div class="pull-right">
+                                <i class="ion ion-bag big-font"></i>
+                            </div>
+                        </div>
+                        <div class="box col-lg-3 col-xs-6">
+                            <div class="pull-left">
+                                <h2>150</h2>
+                                <span>New Orders</span>
+                            </div>
+                            <div class="pull-right">
+                                <i class="ion ion-bag big-font"></i>
+                            </div>
+                        </div>
+                        <div class="box col-lg-3 col-xs-6">
+                            <div class="pull-left">
+                                <h2>150</h2>
+                                <span>New Orders</span>
+                            </div>
+                            <div class="pull-right">
+                                <i class="ion ion-bag big-font"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="server-load col-lg-6 col-sm-12">
+                            <div class="pull-left margin-top">
+                                <i class="fa fa-cloud"></i>
+                                <span>Server Load</span>
+                            </div>
+                            <div class="pull-right margin-top">
+                                <button class="btn btn-danger" title="reload"><i class="fa fa-refresh"></i></button>
+                                <button class="btn btn-danger" title="collpase"><i class="fa fa-minus"></i></button>
+                                <button class="btn btn-danger" title="close"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="visitors col-lg-6 col-sm-12">
+                            <div class="pull-left margin-top">
+                                <i class="fa fa-map-marker"></i>
+                                <span>Visitors</span>
+                            </div>
+                            <div class="pull-right margin-top">
+                                <button class="btn btn-danger" title="refresh"><i class="fa fa-refresh"></i></button>
+                                <button class="btn btn-danger" title="calendar"><i class="fa fa-calendar"></i></button>
+                            </div>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <td>Country</td>
+                                        <td>Visitors</td>
+                                        <td>Online</td>
+                                        <td>PageViews</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td class="country">USA</td><td></td><td>209</td><td>23</td></tr>
+                                    <tr><td class="country">China</td><td></td><td>1234</td><td>890</td></tr>
+                                    <tr><td class="country">Austrilia</td><td></td><td>809</td><td>233</td></tr>
+                                    <tr><td class="country">Russian</td><td></td><td>459</td><td>66</td></tr>
+                                </tbody>
+                            </table>
+                            <div>
+                                <button class="btn btn-info"><i class="fa fa-download"></i>Generate Pdf</button>
+                                <button class="btn btn-warning"><i class="fa fa-bug"></i>Report bug</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="calendar col-lg-6 col-sm-12">
+                            <div class="pull-left margin-top">
+                                <i class="fa fa-calendar"></i>
+                                <span>calendar</span>
+                            </div>
+                            <div class="pull-right margin-top">
+                                <button class="btn btn-danger" title="calendar"><i class="fa fa-calendar"></i></button>
+                            </div>
+                        </div>
+                        <div class="chat col-lg-6 col-sm-12">
+                            <div class="pull-left margin-top">
+                                <i class="fa fa-comments-o"></i>
+                                <span>Chat</span>
+                            </div>
+                            <div class="pull-right margin-top">
+                                <button class="btn btn-success" title="status"><i class="fa fa-square"></i></button>
+                                <button class="btn btn-danger" title="status"><i class="fa fa-square"></i></button>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="comments">
+                                <img src="img/user-icon.png" alt="" class="img-circle pull-left">
+                                <p>This is the comment from user 1</p>
+                                <span class="time"><i class="fa fa-clock-o"></i>10:09</span>
+                                <div style="clear:both"></div>
+                                <div class="attachments">
+                                    <h3>Attachments</h3>
+                                    <h4>something.jpeg</h4>
+                                    <button class="btn btn-info pull-right">Open</button>
+                                </div>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="comments">
+                                <img src="img/user-icon.png" alt="" class="img-circle pull-left">
+                                <p>This is the comment from user 2</p>
+                                <span class="time"><i class="fa fa-clock-o"></i>10:09</span>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div class="comments">
+                                <img src="img/user-icon.png" alt="" class="img-circle pull-left">
+                                <p>This is the comment from user 2</p>
+                                <span class="time"><i class="fa fa-clock-o"></i>10:09</span>
+                                <div style="clear:both"></div>
+                            </div>
+                            <div style="clear:both"></div>
+                            <form action="">
+                                <input type="text" class="input-text" name="q" placeholder="Type message ...">
+                                <button class="btn btn-success" type="submit"><i class="fa fa-plus"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
