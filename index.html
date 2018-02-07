@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>admin LTE theme</title>
         <meta name="" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <!-- bootstrap 3.0.2 -->
+        <!-- bootstrap 4.0.2 -->
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
         <!-- font awesome -->
         <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.min.css">
@@ -178,11 +178,11 @@
                             <div class="comments">
                                 <img src="img/user-icon.png" alt="" class="img-circle pull-left">
                                 <p>This is the comment from user 1</p>
-                                <span class="time"><i class="fa fa-clock-o"></i>10:09</span>
+                                <span class="time text-muted"><i class="fa fa-clock-o text-muted"></i>10:09</span>
                                 <div style="clear:both"></div>
                                 <div class="attachments">
-                                    <h3>Attachments</h3>
-                                    <h4>something.jpeg</h4>
+                                    <h4>Attachments</h4>
+                                    <h6>something.jpeg</h6>
                                     <button class="btn btn-info pull-right">Open</button>
                                 </div>
                                 <div style="clear:both"></div>
@@ -190,20 +190,42 @@
                             <div class="comments">
                                 <img src="img/user-icon.png" alt="" class="img-circle pull-left">
                                 <p>This is the comment from user 2</p>
-                                <span class="time"><i class="fa fa-clock-o"></i>10:09</span>
+                                <span class="time text-muted"><i class="fa fa-clock-o"></i>10:09</span>
                                 <div style="clear:both"></div>
                             </div>
                             <div class="comments">
                                 <img src="img/user-icon.png" alt="" class="img-circle pull-left">
                                 <p>This is the comment from user 2</p>
-                                <span class="time"><i class="fa fa-clock-o"></i>10:09</span>
+                                <span class="time text-muted"><i class="fa fa-clock-o text-muted"></i>10:09</span>
                                 <div style="clear:both"></div>
                             </div>
                             <div style="clear:both"></div>
-                            <form action="">
+                            <form action="" method="post">
                                 <input type="text" class="input-text" name="q" placeholder="Type message ...">
                                 <button class="btn btn-success" type="submit"><i class="fa fa-plus"></i></button>
                             </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="todo-list col-lg-6 col-sm-12">
+                            <div class="pull-left margin-top">
+                                <i class="ion ion-clipboard"></i>
+                                <span>Todolist</span>
+                            </div>
+                            <ul class="pagination pull-right">
+                                <li class="page-item"><a class="page-link" href="#"><<</a></li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">>></a></li>
+                            </ul>
+                            <ul class="todo-items">
+                                <li><i class="fa fa-eclispsis-v"></i><input type="checkbox"><span>design a nice theme</span></li>
+                                <li><i class="fa fa-eclispsis-v"></i><input type="checkbox"><span> make the theme responsive</span> <span class="time bgc-dangder"><i class="fa fa-clock-o"></i>&nbsp;10:00</span></li>
+                                <li><i class="fa fa-eclispsis-v"></i><input type="checkbox"><span>let the theme shine like a star</span><span class="time bgc-success"><i class="fa fa-clock-o"></i>&nbsp;02:30</span></li>
+                                <li><i class="fa fa-eclispsis-v"></i><input type="checkbox"><span>like a diamond in the sky</span></li>
+                                <button class="pull-right"><i class="fa fa-plus"></i>Add Items</button>
+                            </ul>
                         </div>
                     </div>
                 </div>
