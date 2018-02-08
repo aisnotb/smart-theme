@@ -16,6 +16,71 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <div class="gear">
+            <i class="fa fa-gear text-primary"></i>
+        </div>
+        <div class="layout-options">
+            <h4 class="text-light-blue border-bottom">Layout options</h4>
+            <!-- layout options -->
+            <ul>
+                <li class="list-unstyled"><input type="checkbox" name="" id="">Fixed layout</li>
+                <li class="list-unstyled"><input type="checkbox" name="" id="">Boxed layout</li>
+                <li class="list-unstyled"><input type="checkbox" name="" id="">Collapsed layout</li>
+            </ul>
+            <!-- theme style heading colors -->
+            <h4 class="text-light-blue border-bottom">Skins</h4>
+            <ul class="list-unstyled">
+                <li>
+                    <a href="" class="clearfix">
+                        <div>
+                            <span style="width:10%;height:30px;background-color:#222d32;float:left;"></span>
+                            <span style="width: 90%;height:10px;background-color:yellow;float:left"></span>
+                        </div>
+                    </a>
+                    <!-- theme color text -->
+                    <div class="text-center">
+                        Black
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="clearfix">
+                        <div>
+                            <span style="width:10%;height:30px;background-color:#222d32;float:left;"></span>
+                            <span style="width: 90%;height:10px;background-color:blue;float:left"></span>
+                        </div>
+                    </a>
+                    <!-- theme color text -->
+                    <div class="text-center">
+                        Blue
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="clearfix">
+                        <div>
+                            <span style="width:10%;height:30px;background-color:black;float:left;"></span>
+                            <span style="width: 90%;height:10px;background-color:pink;float:left"></span>
+                        </div>
+                    </a>
+                    <!-- theme color text -->
+                    <div class="text-center">
+                        Pink
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="clearfix">
+                        <div>
+                            <span style="width:10%;height:30px;background-color:black;float:left;"></span>
+                            <span style="width: 90%;height:10px;background-color:red;float:left"></span>
+                        </div>
+                    </a>
+                    <!-- theme color text -->
+                    <div class="text-center">
+                        red
+                    </div>
+                </li>
+            </ul>
+        </div>
+
         <div class="header">
             <a href="index.html" class="logo"><span><b>Admin</b>LTE</span></a>
             <a href="#" class="toggle-btn">
@@ -26,6 +91,7 @@
             <!-- TODO: fix the toggle btn hover style -->
             <!-- TODO: fix user name position -->
             <!-- TODO: fix dash-panel-name position yixialai-->
+            <!-- TODO: mouse over todo item li element, show or hide edit tools -->
             <div class="collections">
                 <ul>
                     <li><a href="#"><span class="item-group"><i class="fa fa-envelope"></i><span class="number number-success">4</span></span></a></li>
@@ -173,33 +239,33 @@
                             <div class="pull-right margin-top">
                                 <button class="btn btn-success" title="status"><i class="fa fa-square"></i></button>
                                 <button class="btn btn-danger" title="status"><i class="fa fa-square"></i></button>
-                                <div style="clear:both"></div>
+                                <div class="clearfix"></div>
                             </div>
                             <div class="comments">
                                 <img src="img/user-icon.png" alt="" class="img-circle pull-left">
                                 <p>This is the comment from user 1</p>
                                 <span class="time text-muted"><i class="fa fa-clock-o text-muted"></i>10:09</span>
-                                <div style="clear:both"></div>
+                                <div class="clearfix"></div>
                                 <div class="attachments">
                                     <h4>Attachments</h4>
                                     <h6>something.jpeg</h6>
                                     <button class="btn btn-info pull-right">Open</button>
                                 </div>
-                                <div style="clear:both"></div>
+                                <div class="clearfix"></div>
                             </div>
                             <div class="comments">
                                 <img src="img/user-icon.png" alt="" class="img-circle pull-left">
                                 <p>This is the comment from user 2</p>
                                 <span class="time text-muted"><i class="fa fa-clock-o"></i>10:09</span>
-                                <div style="clear:both"></div>
+                                <div class="clearfix"></div>
                             </div>
                             <div class="comments">
                                 <img src="img/user-icon.png" alt="" class="img-circle pull-left">
                                 <p>This is the comment from user 2</p>
                                 <span class="time text-muted"><i class="fa fa-clock-o text-muted"></i>10:09</span>
-                                <div style="clear:both"></div>
+                                <div class="clearfix"></div>
                             </div>
-                            <div style="clear:both"></div>
+                            <div class="clearfix"></div>
                             <form action="" method="post">
                                 <input type="text" class="input-text" name="q" placeholder="Type message ...">
                                 <button class="btn btn-success" type="submit"><i class="fa fa-plus"></i></button>
@@ -220,11 +286,11 @@
                                 <li class="page-item"><a class="page-link" href="#">>></a></li>
                             </ul>
                             <ul class="todo-items">
-                                <li><i class="fa fa-eclispsis-v"></i><input type="checkbox"><span>design a nice theme</span></li>
-                                <li><i class="fa fa-eclispsis-v"></i><input type="checkbox"><span> make the theme responsive</span> <span class="time bgc-dangder"><i class="fa fa-clock-o"></i>&nbsp;10:00</span></li>
-                                <li><i class="fa fa-eclispsis-v"></i><input type="checkbox"><span>let the theme shine like a star</span><span class="time bgc-success"><i class="fa fa-clock-o"></i>&nbsp;02:30</span></li>
-                                <li><i class="fa fa-eclispsis-v"></i><input type="checkbox"><span>like a diamond in the sky</span></li>
-                                <button class="pull-right"><i class="fa fa-plus"></i>Add Items</button>
+                                <li><i class="fa fa-elipsis-v"></i><input type="checkbox"><span class="margin-left round-edge">design a nice theme</span></li>
+                                <li><i class="fa fa-elipsis-v"></i><input type="checkbox"><span class="margin-left round-edge"> make the theme responsive</span><span class="time bgc-dangder"><i class="fa fa-clock-o"></i>&nbsp;10:00</span><span class="tools"><i class="fa fa-edit"></i>&nbsp;&nbsp;<i class="fa fa-trash-o"></i></span></li>
+                                <li><i class="fa fa-elipsis-v"></i><input type="checkbox"><span class="margin-left round-edge">let the theme shine like a star</span><span class="time bgc-success"><i class="fa fa-clock-o"></i>&nbsp;2min</span></li>
+                                <li><i class="fa fa-elipsis-v"></i><input type="checkbox"><span class="margin-left round-edge">like a diamond in the sky</span></li>
+                                <button class="pull-right margin-right margin-bottom round-edge"><i class="fa fa-plus"></i>&nbsp;Add Items</button>
                             </ul>
                         </div>
                     </div>

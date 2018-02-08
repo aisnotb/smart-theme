@@ -13,6 +13,60 @@
     padding: 10px 0 ;
     text-align: center;
 }
+.gear{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 100px;
+    right: 2px;
+    text-align: center;
+    z-index: 999;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px grey;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+.layout-options{
+    width: 240px;
+    background-color: white;
+    border: 1px solid grey;
+    position: fixed;
+    top: 70px;
+    right: 3px;
+    z-index: 99999;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.text-primary{
+    line-height: 50px;
+}
+.text-light-blue{
+    color: #3c8dbc !important;
+}
+.border-bottom{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+.list-unstyled{
+    padding:0;
+    margin: 0;
+    list-style: none;
+    /* margin-left: 15px; */
+}
+.list-unstyled li {
+    float: left;
+    width: 50%;
+    height: 30px;
+    broder: 1px solid red;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    background-color: #f4f4f4;
+}
+
 .toggle-btn{
     position: relative;
     display: inline-block;
@@ -268,9 +322,33 @@ td.country{
 .clear-both{
     clear: both;
 }
+.margin-left{
+    margin-left: 8px;
+}
+.margin-right{
+    margin-right: 8px;
+}
+.margin-bottom{
+    margin-bottom: 5px;
+}
+.round-edge{
+    border-radius: 3px;
+    -wekit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
 .todo-items li{
     list-style: none;
+    background-color: #f4f4f4;
+    margin-bottom: 6px;
     clear: both;
+}
+.todo-items li span.tools{
+    margin-right: 9px;
+    color: red;
+    float: right;
+}
+.todo-items li span.tools:hover{
+    cursor: pointer;
 }
 .todo-list{
     border-top: 3px solid #3c8dbc;
@@ -290,6 +368,8 @@ td.country{
 }
 .time{
     margin-left: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
     color: white;
     border-radius: 2px;
     -webkit-border-radius: 2px;
