@@ -51,11 +51,13 @@
     padding-top: 15px;
     margin-left: 15px;
 }
+.layout-options ul {
+    padding: 15px;
+}
 .list-unstyled{
-    padding:0;
+    padding: 0;
     margin: 0;
     list-style: none;
-    /* margin-left: 15px; */
 }
 .list-unstyled li {
     float: left;
